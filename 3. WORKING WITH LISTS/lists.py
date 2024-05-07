@@ -41,3 +41,8 @@ print(sum(digits))
 # List Comprehensions
 squares1 = [value**2 for value in range(1, 11)]
 print(squares1)
+
+family_members1 = ['aryan', 'abhi']
+family_members = [member for member in family_members1]
+print(family_members)
+
